@@ -1,0 +1,32 @@
+.info__second {
+  padding: 598px 0px 0;
+  display: flex;
+  position: relative;
+}
+
+.info__second_screen {}
+
+.info__second_legend {}
+
+.info__second_legend h2 {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #0f1f1c;
+  margin: 0 0 32px;
+}
+
+.info__second_legend p {
+  font-family: "Proxima Soft", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #9b9b9b;
+  margin: 0;
+}
+
+/*# sourceMappingURL=/info_2.84f01dcf.css.map */
