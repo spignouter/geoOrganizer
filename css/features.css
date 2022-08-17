@@ -1,48 +1,18 @@
-/* @media (min-width:1280){
-
-} */
-
-.features {
-  padding: 145px 100px;
-  display: flex;
-flex-direction: column;
-
-}
-
-.features__legend {
-  margin: 0 0 80px;
-  padding: 0px 106px;
-  display: flex;
-  flex-direction: column;
-  /* align-items: center; */
-}
-
-.features__legend h2{
-  font-weight: 700;
-  font-family: Montserrat, sans-serif;
-  /* font-size: 36px; */
-  line-height: 44px;
-  font-style: normal;
-  margin: 0 0 32px;
-  color: #0f1f1c;
-}
-
-.features__legend p{
-  font-family: "Proxima Soft", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  /* font-size: 18px; */
-  line-height: 23px;
-  color: #0f1f1c;
-  opacity: 0.5;
-  margin: 0;
-}
-
 @media (min-width:1280px) and (max-width:1920px){
+  .features {
+    padding: 145px 100px;
+    display: flex;
+   flex-direction: column;
+  }
 
-}
+  .features__legend {
+    margin: 0 0 80px;
+    padding: 0px 106px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
 
-@media (min-width:1280px) and (max-width:1920px){
   .features__boxes {
     display: grid;
     gap: 16px;
@@ -72,8 +42,20 @@ flex-direction: column;
 
 }
 
-
 @media (min-width:360px) and (max-width:1280px){
+
+  .features {
+    display: flex;
+   flex-direction: column;
+  }
+
+  .features__legend {
+    margin: 0 0 80px;
+    /* padding: 0px 106px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
 
   .features__boxes {
     display: flex;
@@ -105,6 +87,45 @@ flex-direction: column;
     font-size: 16px;
   }
 }
+
+/* .features {
+  padding: 145px 100px;
+  display: flex;
+ flex-direction: column;
+} */
+
+/* 
+.features__legend {
+  margin: 0 0 80px;
+  padding: 0px 106px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; 
+}
+ */
+
+.features__legend h2{
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  /* font-size: 36px; */
+  line-height: 44px;
+  font-style: normal;
+  margin: 0 0 32px;
+  color: #0f1f1c;
+}
+
+.features__legend p{
+  font-family: "Proxima Soft", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 18px; */
+  line-height: 23px;
+  color: #0f1f1c;
+  opacity: 0.5;
+  margin: 0;
+}
+
+
 
 
 /* @media (min-width:375px) and (max-width:480px) {

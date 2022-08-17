@@ -1,15 +1,14 @@
 @media (min-width:1280px) and (max-width:1920px){
 
   .info {
-    padding: 40px 100px 0;
+    padding: 50px 100px 0;
     display: flex;
     position: relative;
     justify-content: space-evenly;
   }
 
   .info__legend {
-    padding-top: 426px;
-
+    padding-top: 150px;
   }
 
   .info__legend h2{
@@ -18,9 +17,15 @@
   .info__legend p {
     font-size: 20px;
   }
+
+  .info__screen_first {
+    width: 295px;
+    height: 550px;
+  }
+
 }
 
-@media (min-width:350px) and (max-width:1280px){
+@media (min-width:360px) and (max-width:1280px){
   .info {
     /* padding: 0 100px 0; */
     display: flex;
@@ -28,15 +33,26 @@
     flex-direction: column;
   }
   .info__legend {
-    padding-top: 200px;
+    padding-top: 70px;
   }
 
   .info__legend h2{
-    font-size: 24px;
+    font-size: 22px;
+    margin: 0px 0px 0px;
   }
 
   .info__legend p {
-    font-size: 16px;
+    font-size: 12px;
+    }
+
+    .info__screens {
+      padding-top: 10px;
+    }
+
+    .info__screen_first {
+      width: 295px;
+      height: 550px;
+      margin: 42px 24px 0px;
     }
 
 }
@@ -62,7 +78,7 @@
   line-height: 44px;
   color: #0f1f1c;
   /* width: 401px; */
-  margin: 0 0 32px;
+  /* margin: 0 0 32px; */
 }
 
 .info__legend p {
@@ -76,14 +92,15 @@
   margin: 0;
 }
 
-.info__screens {
+/* .info__screens {
   padding-top: 165px;
-}
+} */
 
-.info__screen_first {
+/* .info__screen_first {
   width: 295px;
   height: 550px;
-}
+  margin: 42px 0px 0px;
+} */
 
 .info__screen_second {
   position: absolute;
