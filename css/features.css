@@ -3,7 +3,7 @@
 } */
 
 .features {
-  /* padding: 144px 100px; */
+  padding: 145px 100px;
   display: flex;
 flex-direction: column;
 
@@ -11,10 +11,10 @@ flex-direction: column;
 
 .features__legend {
   margin: 0 0 80px;
+  padding: 0px 106px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
+  /* align-items: center; */
 }
 
 .features__legend h2{
@@ -73,7 +73,6 @@ flex-direction: column;
 }
 
 
-
 @media (min-width:360px) and (max-width:1280px){
 
   .features__boxes {
@@ -88,8 +87,8 @@ flex-direction: column;
   }
 
   .features__box {
-    width: 164px;
-    height: 164px;
+    width: 157px;
+    height: 157px;
     font-size: 13px;
   }
   .features__box img {

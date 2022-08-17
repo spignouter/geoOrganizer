@@ -1,9 +1,10 @@
 @media (min-width:1280px) and (max-width:1920px){
 
   .info {
-    padding: 0 100px 0;
+    padding: 40px 100px 0;
     display: flex;
     position: relative;
+    justify-content: space-evenly;
   }
 
   .info__legend {
@@ -80,6 +81,8 @@
 }
 
 .info__screen_first {
+  width: 295px;
+  height: 550px;
 }
 
 .info__screen_second {
