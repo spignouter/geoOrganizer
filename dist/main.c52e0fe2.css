@@ -10,6 +10,19 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@media (min-width:1280px) and (max-width:1920px){
+  .main img {
+    margin-top: 207px;
+  }
+
+   }
+
+@media (min-width:360px) and (max-width:1280px){
+  .main img {
+    margin-top: 176px;
+  }
+}
+
 
 body {}
 
@@ -21,7 +34,7 @@ body {}
 }
 
 .content {
-  max-width: 1920px;
+  /* max-width: 1920px; */
   margin: 0px auto;
   padding: 0px 15px;
 
@@ -32,7 +45,7 @@ body {}
 }
 
 
-/* @media (max-width:1920px) {
+/* @media (min-width:1920px) {
   .content {
     max-width: 1600;
     margin: 0px auto;
@@ -41,7 +54,7 @@ body {}
 
 }
 
-@media (max-width:1600px) {
+@media (min-width:1600px) {
   .content {
     max-width: 1280;
     margin: 0px auto;
@@ -50,7 +63,7 @@ body {}
 
 }
 
-@media (max-width:1280px) {
+@media (min-width:1280px) {
   .content {
     max-width: 1024;
     margin: 0px auto;
@@ -59,7 +72,7 @@ body {}
 
 }
 
-@media (max-width:1024px) {
+@media (min-width:1024px) {
   .content {
     max-width: 768;
     margin: 0px auto;
@@ -68,7 +81,7 @@ body {}
 
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
   .content {
     max-width: 480;
     margin: 0px auto;
@@ -77,7 +90,7 @@ body {}
 
 }
 
-@media (max-width:480px) {
+@media (min-width:480px) {
   .content {
     max-width: 1024;
     margin: 0px auto;
