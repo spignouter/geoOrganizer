@@ -1,4 +1,5 @@
 /node_modules
 help.txt
 .gitignore
-
+/dist
+/.cache
