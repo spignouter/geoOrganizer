@@ -1,8 +1,8 @@
 @media (min-width:1280px) and (max-width:1920px){
   .features {
-    padding: 145px 100px;
+    padding: 145px 145px 250px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .features__legend {

@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../img/Rectangle193.png":[["Rectangle193.d8bb0c33.png","img/Rectangle193.png"],"img/Rectangle193.png"],"./../img/Rectangle192.png":[["Rectangle192.649cb17b.png","img/Rectangle192.png"],"img/Rectangle192.png"],"./../img/Rectangle194.png":[["Rectangle194.128877f3.png","img/Rectangle194.png"],"img/Rectangle194.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../img/Rectangle193.png":[["Rectangle193.d8bb0c33.png","img/Rectangle193.png"],"img/Rectangle193.png"],"./../img/Rectangle192.png":[["Rectangle192.649cb17b.png","img/Rectangle192.png"],"img/Rectangle192.png"],"./../img/Rectangle194.png":[["Rectangle194.128877f3.png","img/Rectangle194.png"],"img/Rectangle194.png"],"./../img/Rectangle1mini.png":[["Rectangle1mini.567c4a56.png","img/Rectangle1mini.png"],"img/Rectangle1mini.png"],"./../img/Rectangle2mini.png":[["Rectangle2mini.a59bd820.png","img/Rectangle2mini.png"],"img/Rectangle2mini.png"],"./../img/Rectangle3mini.png":[["Rectangle3mini.8e0ffa58.png","img/Rectangle3mini.png"],"img/Rectangle3mini.png"],"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
