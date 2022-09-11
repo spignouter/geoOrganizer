@@ -1,6 +1,6 @@
 @media (min-width:1280px) and (max-width:1920px){
     .developed_by{
-        font-size: 48px;
+        font-size: 36px;
     }
 
 }
@@ -15,21 +15,25 @@
     position: relative;
     display: flex;
     height: 588px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    padding: 140px 0px;
+    padding: 290px 0px 0px;
 }
+
 
 .picture{
 
+}
+
+.tornado{
+    width: 85%;
 }
 
 .developed_by{
 font-family: 'Proxima Soft';
 font-style: normal;
 font-weight: 700;
-/* font-size: 48px; */
 line-height: 160%;
 
 /* identical to box height, or 77px */
@@ -41,9 +45,8 @@ color: #000000;
 }
 
 .social{
-display: flex;
-justify-content: space-between;
-width: 200px;
-margin: 140px;
-
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 130px 0px 85px;
 }
