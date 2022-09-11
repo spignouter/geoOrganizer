@@ -33,7 +33,11 @@
     flex-direction: column;
   }
   .info__legend {
+<<<<<<< HEAD
     padding-top: 70px;
+=======
+    padding-top: 170px;
+>>>>>>> test
   }
 
   .info__legend h2{
@@ -67,7 +71,11 @@
   display: flex;
   flex-direction: column;
   /* padding-top: 426px; */
+<<<<<<< HEAD
   align-items: center;
+=======
+  align-items: flex-start;
+>>>>>>> test
 }
 
 .info__legend h2{
@@ -111,7 +119,11 @@
 .info__second_legend{
   display: flex;
 flex-direction: column;
+<<<<<<< HEAD
 align-items: center;
+=======
+align-items: flex-start;
+>>>>>>> test
 
 }
 

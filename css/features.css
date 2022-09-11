@@ -1,16 +1,13 @@
 @media (min-width:1280px) and (max-width:1920px){
   .features {
-    padding: 145px 100px;
+    padding: 145px 145px 250px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
   }
 
   .features__legend {
     margin: 0 0 80px;
     padding: 0px 106px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
   }
 
   .features__boxes {
@@ -51,10 +48,6 @@
 
   .features__legend {
     margin: 0 0 80px;
-    /* padding: 0px 106px; */
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
   }
 
   .features__boxes {
@@ -94,15 +87,14 @@
  flex-direction: column;
 } */
 
-/* 
+
 .features__legend {
-  margin: 0 0 80px;
-  padding: 0px 106px;
+
   display: flex;
   flex-direction: column;
-  /* align-items: center; 
+  align-items: flex-start; 
 }
- */
+
 
 .features__legend h2{
   font-weight: 700;
